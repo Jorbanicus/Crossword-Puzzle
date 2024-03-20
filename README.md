@@ -12,7 +12,8 @@ This Python script generates a word search puzzle from a list of words. The puzz
 1. Replace the `filename` variable with the path to your input file containing the list of words.
 
 ```python
-g = Generator("path_to_your_word_list.txt")```
+g = Generator("path_to_your_word_list.txt")
+```
 
 2. Call the export_to_pdf method with the desired title, lines, and grid_font for your PDF.
 
